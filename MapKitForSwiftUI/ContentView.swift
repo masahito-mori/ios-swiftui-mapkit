@@ -28,9 +28,10 @@ struct ContentView: View {
     @State private var visibleRegion: MKCoordinateRegion?
     
     @State private var searchResults: [MKMapItem] = []
+    @State private var selectedResult: MKMapItem?
     
     var body: some View {
-        Map(position: $position) {
+        Map(position: $position, selection: $selectedResult) {
             Annotation("Parking", coordinate: .parking) {
                 ZStack {
                     RoundedRectangle(cornerRadius: 5)
