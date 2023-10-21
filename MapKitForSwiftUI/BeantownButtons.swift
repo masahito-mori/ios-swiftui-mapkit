@@ -9,6 +9,8 @@ import SwiftUI
 import MapKit
 
 struct BeantownButtons: View {
+    @Binding var position: MapCameraPosition
+    
     @Binding var searchResults : [MKMapItem]
     
     var body: some View {
@@ -26,6 +28,18 @@ struct BeantownButtons: View {
                 Label("Beaches", systemImage: "beach.umbrella")
             }
             .buttonStyle(.borderedProminent)
+            
+            Button {
+                position = .region(.boston)
+            } label: {
+                Label("Boston", systemImage: "building.2")
+            }
+            
+            Button {
+                position = .region(.northShore)
+            } label: {
+                Label("North Shore", systemImage: "water.waves")
+            }
         }
         .labelStyle(.iconOnly)
     }
