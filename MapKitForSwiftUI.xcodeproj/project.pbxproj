@@ -12,6 +12,7 @@
 		1B1058D52AE3CF6500DFD7FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B1058D42AE3CF6500DFD7FD /* Assets.xcassets */; };
 		1B1058D82AE3CF6500DFD7FD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B1058D72AE3CF6500DFD7FD /* Preview Assets.xcassets */; };
 		1B1058DF2AE3D4A400DFD7FD /* BeantownButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1058DE2AE3D4A400DFD7FD /* BeantownButtons.swift */; };
+		1B1058E12AE404FE00DFD7FD /* ItemInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1058E02AE404FE00DFD7FD /* ItemInfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		1B1058D42AE3CF6500DFD7FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B1058D72AE3CF6500DFD7FD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1B1058DE2AE3D4A400DFD7FD /* BeantownButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeantownButtons.swift; sourceTree = "<group>"; };
+		1B1058E02AE404FE00DFD7FD /* ItemInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemInfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			children = (
 				1B1058D02AE3CF6400DFD7FD /* MapKitForSwiftUIApp.swift */,
 				1B1058D22AE3CF6400DFD7FD /* ContentView.swift */,
+				1B1058E02AE404FE00DFD7FD /* ItemInfoView.swift */,
 				1B1058DE2AE3D4A400DFD7FD /* BeantownButtons.swift */,
 				1B1058D42AE3CF6500DFD7FD /* Assets.xcassets */,
 				1B1058D62AE3CF6500DFD7FD /* Preview Content */,
@@ -143,6 +146,7 @@
 				1B1058D32AE3CF6400DFD7FD /* ContentView.swift in Sources */,
 				1B1058DF2AE3D4A400DFD7FD /* BeantownButtons.swift in Sources */,
 				1B1058D12AE3CF6400DFD7FD /* MapKitForSwiftUIApp.swift in Sources */,
+				1B1058E12AE404FE00DFD7FD /* ItemInfoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
