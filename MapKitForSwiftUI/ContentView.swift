@@ -50,6 +50,11 @@ struct ContentView: View {
             }
             .annotationTitles(.hidden)
             
+            if let route {
+                MapPolyline(route)
+                    .stroke(.blue, lineWidth: 5)
+            }
+            
         }
         .mapStyle(.standard(elevation: .realistic))
         .safeAreaInset(edge: .bottom) {
