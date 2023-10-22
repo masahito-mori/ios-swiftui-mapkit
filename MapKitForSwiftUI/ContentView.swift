@@ -83,6 +83,11 @@ struct ContentView: View {
         .onMapCameraChange { context in
             visibleRegion = context.region
         }
+        .mapControls {
+            MapUserLocationButton()
+            MapCompass()
+            MapScaleView()
+        }
     }
     
     func getDirections() {
