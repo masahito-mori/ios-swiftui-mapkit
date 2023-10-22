@@ -23,8 +23,9 @@ extension MKCoordinateRegion {
 }
 
 struct ContentView: View {
+    @StateObject private var locationManager = LocationManager()
     
-    @State private var position: MapCameraPosition = .automatic
+    @State private var position: MapCameraPosition = .userLocation(fallback: .automatic)
     @State private var visibleRegion: MKCoordinateRegion?
     
     @State private var searchResults: [MKMapItem] = []
@@ -54,6 +55,8 @@ struct ContentView: View {
                 MapPolyline(route)
                     .stroke(.blue, lineWidth: 5)
             }
+            
+            UserAnnotation()
             
         }
         .mapStyle(.standard(elevation: .realistic))
