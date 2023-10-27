@@ -14,6 +14,8 @@
 		1B1058DF2AE3D4A400DFD7FD /* BeantownButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1058DE2AE3D4A400DFD7FD /* BeantownButtons.swift */; };
 		1B1058E12AE404FE00DFD7FD /* ItemInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1058E02AE404FE00DFD7FD /* ItemInfoView.swift */; };
 		1B1058E32AE4AC0C00DFD7FD /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1058E22AE4AC0C00DFD7FD /* LocationManager.swift */; };
+		1BFDCB2D2AEBC5E700C09004 /* MKCoordinateRegion+SampleSpot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BFDCB2C2AEBC5E700C09004 /* MKCoordinateRegion+SampleSpot.swift */; };
+		1BFDCB2F2AEBC65B00C09004 /* CLLocationCoordinate2D+SampleSpot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BFDCB2E2AEBC65B00C09004 /* CLLocationCoordinate2D+SampleSpot.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		1B1058DE2AE3D4A400DFD7FD /* BeantownButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeantownButtons.swift; sourceTree = "<group>"; };
 		1B1058E02AE404FE00DFD7FD /* ItemInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemInfoView.swift; sourceTree = "<group>"; };
 		1B1058E22AE4AC0C00DFD7FD /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		1BFDCB2C2AEBC5E700C09004 /* MKCoordinateRegion+SampleSpot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MKCoordinateRegion+SampleSpot.swift"; sourceTree = "<group>"; };
+		1BFDCB2E2AEBC65B00C09004 /* CLLocationCoordinate2D+SampleSpot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CLLocationCoordinate2D+SampleSpot.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,7 @@
 				1B1058D22AE3CF6400DFD7FD /* ContentView.swift */,
 				1B1058E02AE404FE00DFD7FD /* ItemInfoView.swift */,
 				1B1058DE2AE3D4A400DFD7FD /* BeantownButtons.swift */,
+				1BFDCB2B2AEBC51200C09004 /* Extensions */,
 				1B1058D42AE3CF6500DFD7FD /* Assets.xcassets */,
 				1B1058D62AE3CF6500DFD7FD /* Preview Content */,
 			);
@@ -74,6 +79,15 @@
 				1B1058D72AE3CF6500DFD7FD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1BFDCB2B2AEBC51200C09004 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1BFDCB2C2AEBC5E700C09004 /* MKCoordinateRegion+SampleSpot.swift */,
+				1BFDCB2E2AEBC65B00C09004 /* CLLocationCoordinate2D+SampleSpot.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,7 +162,9 @@
 			files = (
 				1B1058D32AE3CF6400DFD7FD /* ContentView.swift in Sources */,
 				1B1058DF2AE3D4A400DFD7FD /* BeantownButtons.swift in Sources */,
+				1BFDCB2F2AEBC65B00C09004 /* CLLocationCoordinate2D+SampleSpot.swift in Sources */,
 				1B1058E32AE4AC0C00DFD7FD /* LocationManager.swift in Sources */,
+				1BFDCB2D2AEBC5E700C09004 /* MKCoordinateRegion+SampleSpot.swift in Sources */,
 				1B1058D12AE3CF6400DFD7FD /* MapKitForSwiftUIApp.swift in Sources */,
 				1B1058E12AE404FE00DFD7FD /* ItemInfoView.swift in Sources */,
 			);
